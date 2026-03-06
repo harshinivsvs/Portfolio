@@ -1,0 +1,219 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+     background: rgba(15,32,39,0.85);
+backdrop-filter: blur(6px);
+    z-index:1000;
+}
+.navbar span{
+    color:aqua;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    padding-left: 30px;
+    padding-top: 20px;
+    
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+    margin-right: 150px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 22px;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+.nav-links a:hover {
+    color: aqua;
+    transform: translateY(-3px);
+    text-decoration: underline;
+}
+.nav-links a.active{
+color: aqua;
+font-weight: bold;
+border-bottom: 2px solid aqua;
+}
+body{
+    background-image: url("Homebackground.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 80px;
+     font-family: Arial, sans-serif;
+}
+.contact{
+    color:white;
+    
+}
+
+.contact-container{
+    display:flex;
+    justify-content:space-between;
+    gap:100px;
+    padding:100px 100px;
+    flex-wrap:wrap;
+}
+
+.contact-left{
+    flex:1;
+    min-width:300px;
+    display:flex;
+flex-direction:column;
+gap:18px;
+}
+
+.contact-left h2{
+    font-size:36px;
+}
+
+.contact-left span{
+    color:#00f7ff;
+}
+
+.contact-left h4{
+    margin-top:15px;
+}
+
+.contact-left p{
+    margin:15px 0;
+    line-height:1.6;
+}
+
+.contact-info p{
+    margin:8px 0;
+}
+
+.social-icons{
+    margin-top:20px;
+    display:flex;
+gap:15px;
+}
+
+.social-icons a{
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+    width:40px;
+    height:40px;
+    border:2px solid #00f7ff;
+    border-radius:50%;
+    color:#00f7ff;
+    margin-right:10px;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+.social-icons a:hover{
+    background:#00f7ff;
+    color:black;
+}
+
+.contact-right{
+    flex:1;
+    width:100%;
+}
+
+.contact-right form{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+.contact-right input,
+.contact-right textarea{
+    margin-top: 15px;
+    margin-bottom:15px;
+    padding:12px;
+    border:none;
+    border-radius:6px;
+    background:#2c2c2c;
+    color:white;
+    width:100%;
+}
+
+.contact-right button{
+    margin-top: 10px;
+    padding:14px;
+    border:none;
+    border-radius:30px;
+    background:#00f7ff;
+    color:black;
+    font-weight:bold;
+    cursor:pointer;
+    box-shadow:0 0 20px #00f7ff;
+}
+/* RESPONSIVE DESIGN */
+@media (max-width:768px){
+.navbar{
+flex-direction: column;
+align-items: center;
+padding: 20px 5px;
+}
+
+.logo{
+font-size: 32px;
+}
+
+.nav-links{
+flex-direction: column;
+gap: 22px;
+margin: 10px 0;
+}
+
+.nav-links a{
+font-size: 18px;
+}
+/* Contact section */
+.contact{
+padding:120px 20px 60px;
+}
+
+.contact-container{
+flex-direction:column;
+align-items:center;
+padding:120px 0px;
+}
+
+
+.contact-left,
+.contact-right{
+width:70%;
+text-align:center;
+}
+
+.social-icons{
+display:flex;
+justify-content:center;
+}
+
+/* Form */
+.contact-right form{
+width:100%;
+}
+
+.contact-right input,
+.contact-right textarea{
+width:100%;
+}
+
+.contact-right button{
+width:100%;
+}
+
+}
