@@ -10,7 +10,8 @@ background:#f4f4f4;
 }
 
 .container{
-width:900px;
+width:90%;
+max-width:1000px;
 margin:40px auto;
 display:flex;
 background:white;
