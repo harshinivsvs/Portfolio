@@ -1,4 +1,3 @@
-/* Navbar */
 .navbar{
     display:flex;
     justify-content:space-between;
@@ -53,7 +52,6 @@
     border-bottom:2px solid aqua;
 }
 
-/* Body */
 body{
     background-image:url("Homebackground.jpg");
     background-size:cover;
@@ -61,8 +59,6 @@ body{
     padding-top:80px;
     font-family:Arial,sans-serif;
 }
-
-/* Projects Section */
 
 .projects{
     padding:40px 40px;
@@ -79,7 +75,6 @@ body{
 .projects-title span{
     color:aqua;
 }
-
 
 .project-container{
     display:flex;
@@ -100,9 +95,11 @@ body{
     transition:0.3s;
     text-align:center;
 }
+
 .project-card span{
     color: aqua;
 }
+
 .project-card img{
     width:100%;
     height:180px;
@@ -215,8 +212,6 @@ body{
     box-shadow:0 0 25px aqua;
 }
 
-/* Responsiveness */
-
 @media (max-width:768px){
 
 .navbar{
@@ -239,7 +234,6 @@ body{
     font-size:18px;
 }
 
-/* Projects responsive */
 .projects{
     margin-top: 200px;
 }
@@ -251,8 +245,6 @@ body{
 .project-box{
     width:90%;
 }
-
-/* Skills responsive */
 
 .skills-section{
     margin-top:120px;

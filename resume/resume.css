@@ -23,7 +23,6 @@ body{
 .container h4{
     color:#8c6a9a;
 }
-/* LEFT SIDE */
 
 .left{
     width:35%;
@@ -40,7 +39,6 @@ body{
     margin-bottom:20px;
 }
 
-/* Social Icons */
 .social-icons {
     margin-top: 20px;
     display: flex;
@@ -70,8 +68,6 @@ body{
 .left li{
     margin-bottom:5px;
 }
-
-/* RIGHT SIDE */
 
 .right{
     width:65%;

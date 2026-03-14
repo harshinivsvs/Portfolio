@@ -1,5 +1,4 @@
 
-/* Navbar */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -62,7 +61,7 @@ body{
     padding-top: 80px;
     font-family: Arial, sans-serif;
 }
-/* Container */
+
 .education-section{
     padding:80px 50px;
 
@@ -80,7 +79,7 @@ body{
     gap:30px;
     flex-wrap:wrap;
 }
-/* Card */
+
 .edu-card{
     background-color:rgba(0,0,0,0.7);
     border-radius:15px;
@@ -97,7 +96,6 @@ body{
     margin-bottom:15px;
 }
 
-/* Hover effect */
 .edu-card:hover{
     transform:translateY(-8px);
     box-shadow:0 0 25px aqua;
