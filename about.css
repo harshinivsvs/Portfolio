@@ -67,7 +67,7 @@ body{
     padding-top:100px; 
     padding-left:60px;
     padding-right:60px;
-     font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
     
 }
 
@@ -102,6 +102,21 @@ body{
 
 .text span{
     color:aqua;
+}
+
+.fade-in{
+    animation: fadeInUp 1s ease forwards;
+}
+
+@keyframes fadeInUp {
+    from{
+        opacity:0;
+        transform:translateY(80px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
 }
 
 @media (max-width:768px){
