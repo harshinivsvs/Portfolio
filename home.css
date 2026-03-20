@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -10,7 +16,8 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     min-height: 100vh;
-    display: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .navbar {
@@ -71,6 +78,7 @@ body {
     align-items: center;
     margin-top: 80px;
     padding: 60px;
+    margin-bottom: 50px;
 }
 
 .text {
@@ -117,7 +125,7 @@ body {
     flex-direction: column;
     align-items: center;
     width: 280px;
-    height: 280px;    
+    height: auto;    
 }
 
 .image-section img {
@@ -152,6 +160,23 @@ body {
 
 .fade-in{
     animation: fadeInUp 1s ease forwards;
+}
+
+.foot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 2.5;
+    padding: 15px 60px;
+    width: 100%;
+    background: rgba(15,32,39,0.85);
+    backdrop-filter: blur(6px);
+    margin-top: auto;
+    color: azure;
+}
+.footer-link{
+    color: aqua;
 }
 
 @keyframes fadeInUp {
