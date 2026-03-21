@@ -12,10 +12,10 @@ This website showcases my **projects, skills, education, and contact details** i
 
 This portfolio is designed to:
 
-* Present my work and projects 💻
-* Share my background and education 🎓
-* Highlight my skills 🛠️
-* Provide an easy way to contact me 📬
+* Present my work and projects 
+* Share my background and education 
+* Highlight my skills 
+* Provide an easy way to contact me 
 
 
 ## 2️⃣ Pages Included
@@ -52,9 +52,9 @@ This portfolio is designed to:
 
 ## 6️⃣ Future Improvements
 
-* Add animations ✨
-* Make it fully responsive 📱
-* Add JavaScript for interactivity ⚡
+* Add animations 
+* Make it fully responsive 
+* Add JavaScript for interactivity 
 
 
 ## 7️⃣ Author
